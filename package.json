@@ -1,0 +1,21 @@
+{
+  "name": "flutterserver",
+  "version": "1.0.0",
+  "description": "We’ll be building a CRUD App with Node.js, Express, and MongoDB. We’ll use Mongoose for interacting with the MongoDB instance.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Fhatuwani Raphalalani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
